@@ -8,21 +8,20 @@ h1 {
     font-size: 5.625rem;
     margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    color: #66BFBF;
+    color:#FF6F91;
 }
 
 h2{
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    color: #66BFBF;
+    color:#FF6F91;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #D65DB1;
 }
-
 
 .top-containter{
     background-color: #fddede;
@@ -36,14 +35,26 @@ h3{
 
 .top-cloud{
     position: absolute;
-    right: 500px;
-    top: 50px;
+    right: 300px;
+    top: 50px;  
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 500px;
+    left: 300px;
     bottom: 300px;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.plant-img{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
 }
 
 .middle-container{
@@ -53,6 +64,14 @@ h3{
 .bottom-container{
 
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 
 .profile{
 
