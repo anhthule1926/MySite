@@ -36,6 +36,17 @@ hr{
   margin: 100px auto;
 }
 
+a{
+    color: #D65DB1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
 .top-containter{
     background-color: #FEF7FF;
     position: relative;
@@ -80,7 +91,8 @@ hr{
 }
 
 .bottom-container{
-    margin: 100px;
+    background: #f5cef5;
+    padding: 50px 0 20px;
 }
 
 .skill-row{
@@ -119,4 +131,10 @@ hr{
     background-image: -o-linear-gradient(top, #e687d0, #e388e8);
     background-image: linear-gradient(to bottom, #e687d0, #e388e8);
     text-decoration: none;
+  }
+
+  .copyright{
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 20px 0;
   }
