@@ -74,31 +74,37 @@ a:hover{
     bottom: 300px;
 }
 
-.code-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.plant-img{
-    width: 20%;
-    float: right;
-    margin-left: 30px;
-}
 
 .middle-container{
     margin: 100px 0;
 }
 
-.bottom-container{
-    background: #f5cef5;
-    padding: 50px 0 20px;
+.work{
+    align-content: center;
 }
+
+
 
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
-    text-align: left;
+    text-align: center;
+    font-size: 5rem;
+    width: auto;
+	margin-right: 2%;
+	text-align: center;
+	padding: 13px;
+	margin-top: 20px;
+	transition: .5s ease-in;
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-ms-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+}
+
+.bottom-container{
+    background: #f5cef5;
+    padding: 50px 0 20px;
 }
 
 .contact-message{
@@ -134,7 +140,7 @@ a:hover{
   }
 
   .copyright{
-      color: #EAF6F6;
+      color: rgb(21, 31, 31);
       font-size: 0.75rem;
       padding: 20px 0;
   }
